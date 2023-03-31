@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     padding: 6rem 0;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(0, 0, 0, .7);
 }
 
 .footer-container {
@@ -13,7 +13,8 @@
 }
 
 .footer-logo {
-    max-width: 220px;
+    max-width: 70px;
+    margin-left: 1rem;
 }
 
 .footer .left {
@@ -56,6 +57,7 @@
 .footer .location h4 {
     padding-top: 0;
 }
+
 
 @media screen and (max-width: 640px) {
     .footer-container {

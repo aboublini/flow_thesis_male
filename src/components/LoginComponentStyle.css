@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 label {
     color: #000;
 }
@@ -7,11 +6,11 @@ label {
 .login-form {
     display: flex;
     flex-direction: column;
-    padding: 4rem;
+    padding: 3.5rem;
     margin: auto;
     width: 400px;
-    height: 580px;
-    background: rgba(255, 255, 255, .7);
+    height: 600px;
+    background: rgba(0, 0, 0, .7);
     align-items: center;
     border-radius: 25px;
 }
@@ -20,11 +19,13 @@ label {
     margin-bottom: .7rem;
     max-width: 600px;
     font-size: 1rem;
+    color: white;
 }
 
 p {
     margin-top: .7rem;
     font-size: 0.9rem;
+    color: white;
 }
 
 u {
@@ -33,20 +34,20 @@ u {
 
 .login-form input, textarea {
     margin-bottom: 2rem;
-    padding: 0.6rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
-    font-family: 'Raleway', 'Nirmala UI', serif;
+    font-family: 'Poppins', serif;
     background-color: #fff;
     border: none;
     outline: none;
-    border-radius: 20px;
+    border-radius: 25px;
     color: #000;
     min-width: 200px;
 }
 
 .login-logo {
-    max-width: 230px;
-    margin-bottom: 2rem;
+    max-width: 100px;
+    margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 640px) {

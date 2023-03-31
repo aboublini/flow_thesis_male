@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -13,7 +12,7 @@ h1, h4, p, a {
 
 body {
     margin: 0;
-    font-family: 'Raleway', 'Nirmala UI', 'Roboto', 'Oxygen',
+    font-family: 'Poppins', 'Nirmala UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -36,20 +35,20 @@ code {
 }
 
 .btn {
-    font-family: 'Raleway', 'Nirmala UI', 'Roboto', 'Oxygen',
+    font-family: 'Poppins', 'Nirmala UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    padding: 12px 32px;
-    font-size: 1.1em;
+    padding: 8px 32px;
+    font-size: 1rem;
     background: rgba(255, 255, 255);
     color: #000;
     border: 1px;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 35px;
 }
 
 
 .btn:hover {
-    background: rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, .8);
 }
 

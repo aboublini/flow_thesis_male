@@ -10,12 +10,12 @@
 }
 
 .header-bg {
-    background: rgba(255, 255, 255, .7);
+    background: rgba(0, 0, 0, .7);
     transition: .5s;
 }
 
 .nav-logo {
-    max-width: 150px;
+    max-width: 45px;
     margin-bottom: 1rem;
 }
 
@@ -25,6 +25,7 @@
 
 .nav-menu li {
     padding: 0 1rem;
+
 }
 
 .nav-menu li:hover {
@@ -35,6 +36,7 @@
 .nav-menu a {
     font-size: 1.2rem;
     font-weight: 500;
+    color: white;
 }
 
 .hamburger {
@@ -62,7 +64,7 @@
         height: 100vh;
         transition: 0.3s;
         z-index: -1;
-        background: rgba(255, 255, 255, .9);
+        background: rgba(0, 0, 0, .9);
     }
 
     .nav-menu.active {
@@ -110,6 +112,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    color: white;
 }
 
 .dropbtn:hover {
