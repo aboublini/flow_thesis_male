@@ -1,7 +1,7 @@
 .header {
     position: fixed;
     width: 99.9%;
-    height: 100px;
+    height: 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,12 +11,12 @@
 
 .header-bg {
     background: rgba(0, 0, 0, .7);
-    transition: .5s;
+    transition: .7s;
 }
 
 .nav-logo {
-    max-width: 45px;
-    margin-bottom: 1rem;
+    max-width: 120px;
+    /*margin-bottom: 1rem;*/
 }
 
 .nav-menu {

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './NavbarStyle.css';
 import {Link} from 'react-router-dom';
 import {FaBars, FaTimes} from "react-icons/fa";
-import Logo from "../visual-material/logo.png";
+import Logo from "../visual-material/logo-full.png";
 
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link to="/home"><img src={Logo} className="nav-logo" alt=""/></Link>
             <ul className={Click ? "nav-menu active" : "nav-menu"}>
                 <li>
-                    <Link to="/home">Home</Link>
+                    <Link to="/home" className="nav-route">Home</Link>
                 </li>
                 <li>
                     <Link to="/daily">Daily Goals</Link>
