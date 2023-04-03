@@ -39,21 +39,25 @@
 /* Date title font size */
 .css-3jvy96-MuiTypography-root-MuiDatePickerToolbar-title {
     font-size: 2.5rem !important;
+    color: white !important;
 }
 
 /* Month title styling */
 .css-dplwbx-MuiPickersCalendarHeader-label {
     font-size: 1.5rem !important;
     margin-bottom: 2px !important;
+    color: white !important;
 }
 
 /* Initials of week days M, T, ... F, S */
 .css-raiqh1-MuiTypography-root-MuiDayPicker-weekDayLabel{
     font-size: 1rem !important;
+    color: white !important;
 }
 
 .css-ghi3gg-MuiDayPicker-weekContainer {
     margin: 2px 0 !important;
+
 }
 
 /* Month number circles styling */
@@ -69,16 +73,33 @@
 
 /* Selected day styling */
 .css-195y93z-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
-    background-color: #8F867E !important;
+    background-color: black !important;
     color: white !important;
 }
 
 /* Border color of selected day circle */
 .css-195y93z-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
-    border-color: #8F867E !important;
+    border-color: black !important;
 }
 
 /* Other days circles color when they are being clicked */
 .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
-    background-color: #8F867E !important;
+    background-color: black !important;
+    color: white !important;
+
+}
+
+.css-jro82b-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button,
+.css-1ae9t7h-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button{
+    color: white !important;
+}
+
+.css-jro82b-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button:hover,
+.css-1ae9t7h-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button:hover{
+    background-color: black !important;
+}
+
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root:hover {
+    background-color: black !important;
+    color: white !important;
 }

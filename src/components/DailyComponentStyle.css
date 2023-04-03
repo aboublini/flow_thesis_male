@@ -4,7 +4,7 @@
     z-index: -1;
     object-fit: cover;
     position: fixed;
-    filter: brightness(85%);
+    filter: brightness(100%);
 }
 
 .daily-container {
@@ -15,7 +15,7 @@
 }
 
 .daily-container .daily-content {
-    background: rgba(255, 255, 255, .6);
+    background: rgba(0, 0, 0, .4);
     text-align: center;
     position: absolute;
     width: 100%;
@@ -30,13 +30,13 @@
 
 .daily-container .daily-content h1 {
     font-size: 4rem;
-    color: #000;
+    color: #fff;
 }
 
 .daily-container p {
     font-size: 1.6rem;
     font-weight: 200;
-    color: #000;
+    color: #fff;
 }
 
 @media screen and (max-width: 640px) {

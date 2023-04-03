@@ -132,8 +132,8 @@ const QuotesComponent = () => {
 
     return (
         <div className="quotes">
-            <p className="quote-title">Powerful quote:</p>
-            <br />
+            {/*<p className="quote-title">Powerful quote:</p>*/}
+            {/*<br />*/}
             <p className="quote-text">“{quoteText}”</p>
             <br />
             <p className="quote-who">- {quoteWriter}</p>

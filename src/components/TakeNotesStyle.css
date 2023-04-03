@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 .out {
-    background: rgba(255, 255, 255, .8);
+    /*background: rgba(255, 255, 255, .8);*/
+    background: rgba(0, 0, 0, .7);
 }
 
 .tn-container {

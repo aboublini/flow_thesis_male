@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 .out {
-    background: rgba(255, 255, 255, .8);
+    /*background: rgba(255, 255, 255, .8);*/
+    background: rgba(0, 0, 0, .7);
 }
 
 .outer-container {
@@ -30,11 +31,11 @@
     /*max-width: 800px;*/
     /*background-color: rgba(255, 255, 255, .6);*/
     /*border-radius: 20px;*/
-    background-color: rgba(255, 255, 255, .7);
-    border-radius: 20px;
-    padding: 4rem 4rem;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    padding: 3rem 2rem;
     min-height: 550px;
-    min-width: 448px;
+    min-width: 520px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,6 +58,7 @@ h1 {
     margin: 32px 0;
     font-size: 2.5rem;
     font-weight: normal;
+    color: white;
 }
 
 .complete {
@@ -68,31 +70,39 @@ h1 {
     margin-bottom: 2rem;
     margin-right: 1rem;
     padding: 0.4rem 1rem;
-    font-size: 1.3rem;
-    font-family: 'Indie Flower', serif !important;
+    font-size: 1.1rem;
+    font-family: 'Alata', serif !important;
     background-color: #fff;
     border: none;
     outline: none;
-    border-radius: 25px;
+    border-radius: 20px;
     color: #000;
 }
 
 .todo-button {
-    font-family: 'Raleway', 'Nirmala UI', 'Roboto', 'Oxygen',
+    font-family: 'Alata', 'Nirmala UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    padding: 3px 12px;
-    font-size: 1.5em;
-    background: #8F867E;
+    padding: 4px 11px;
+    font-size: 1.3em;
+    background: #000;
     color: #fff;
     border: 1px;
     cursor: pointer;
     border-radius: 50%;
+    transition: .4s;
 }
 
 .todo-row{
-    font-family: 'Indie Flower', serif !important;
-    font-size: 1.3em;
+    font-family: 'Alata', serif !important;
+    font-size: 1.1em;
+    color: white;
+    transition: .4s;
+}
+
+.todo-row:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .todo-container {
@@ -103,6 +113,7 @@ h1 {
 
 .todo-button:hover {
     background: rgba(255, 255, 255, .6);
+    transform: scale(1.2);
     color: #000;
 }
 
@@ -110,10 +121,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 4px auto;
+    margin: 5px auto;
     padding: 2px;
     border-radius: 5px;
-    width: 100%;
+    width: 350px;
 }
 
 .iconsContainer {
@@ -123,7 +134,7 @@ h1 {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1480px) {
     .out .outer-container {
         grid-template-columns: 1fr;
     }
