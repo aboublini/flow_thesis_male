@@ -1,5 +1,5 @@
 .outer-dv {
-    background: rgba(255, 255, 255, .8);
+    background: rgba(0, 0, 0, .7);
 }
 
 .budget-cont {
@@ -19,11 +19,14 @@
     font-size: 1.5rem;
     font-weight: normal;
     text-align: center;
+    color: white;
 }
 
+
+
 .row-mt3 {
-    background-color: rgba(255, 255, 255, .7);
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 5px;
     padding: 1rem;
     min-height: 270px;
     display: flex;
@@ -50,6 +53,7 @@
 
 .delete-icon {
     cursor: pointer;
+    color: white;
 }
 
 .this-month {
@@ -69,17 +73,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 7% auto;
-    padding: 5px;
+    margin: 6% auto;
+    padding: 3px;
     width: 80%;
     height: 65%;
-
-    background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
+    color: white;
+    transition: .4s;
 }
 
 .alert:hover {
     background-color: rgba(255, 255, 255, .2);
+    transform: scale(1.1);
 }
 
 .exp-list {
@@ -92,6 +97,14 @@
     justify-content: space-between;
     display: flex;
     position: relative;
+    color: white;
+
+}
+
+.list-row:hover {
+    background-color: rgba(255, 255, 255, .2);
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .list-row {
@@ -101,6 +114,8 @@
     margin: 4px auto;
     padding: 5px;
     width: 80%;
+    transition: .4s;
+    border-radius: 5px;
 }
 
 .list-cont {
@@ -139,6 +154,10 @@
     border: none;
     outline: none;
     color: #000;
+}
+
+#name {
+    color: white;
 }
 
 .chart-cont {
