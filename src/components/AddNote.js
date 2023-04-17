@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Swal from "sweetalert2";
+import { GrUploadOption } from "react-icons/gr"
 
 const AddNote = ({ handleAddNote }) => {
     const [noteText, setNoteText] = useState("");
@@ -40,7 +41,7 @@ const AddNote = ({ handleAddNote }) => {
         ></textarea>
         <div className="note-footer">
             <small>{characterLimit - noteText.length} Remaining</small>
-            <button className="save" onClick={handleSaveClick}>+</button>
+            <button className="save" onClick={handleSaveClick}><GrUploadOption/></button>
         </div>
     </div>);
 }

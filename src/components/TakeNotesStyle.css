@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap');
 
 .out {
     /*background: rgba(255, 255, 255, .8);*/
@@ -15,9 +15,9 @@
 
 .note {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 1rem;
-    min-height: 320px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,22 +38,23 @@
 }
 
 .note.new {
-    background-color: rgba(255, 255, 255, .6) ;
+    background-color: rgba(255, 255, 255, .9) ;
 }
 
 .txt-area {
     border: none;
     resize: none;
     background-color: rgba(255, 255, 255, .8) ;
-    font-family: 'Indie Flower', serif !important;
-    margin-bottom: 0.2rem;
-    padding: 0.4rem 0.8rem;
-    font-size: 1.2rem;
+    font-family: 'Commissioner', serif !important;
+    margin-bottom: 0.1rem;
+    padding: 0.5rem 0.9rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
 }
 
 .saved-txt {
-    font-family: 'Indie Flower', serif !important;
-    font-size: 1.3rem;
+    font-family: 'Commissioner', serif !important;
+    font-size: 1.1rem;
 }
 
 .txt-area:focus{
@@ -61,20 +62,29 @@
 }
 
 .save {
-    background-color: #8F867E;
-    color: white;
-    font-size: 2rem;
+    background-color: transparent;
+    color: #000;
+    font-size: 1.5rem;
     border: none;
-    border-radius: 50%;
-    padding: 1px 12px 1px 12px;
+    transition: .4s;
 }
 
 .save:hover {
-    background: rgba(255, 255, 255, .6);
-    color: #000;
+    background-color: transparent;
+    color: grey;
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 .delete-icon {
     cursor: pointer;
+    color: black;
+    transition: .4s;
+}
+
+.delete-icon:hover {
+    background-color: transparent;
+    color: grey;
+    cursor: pointer;
+    transform: scale(1.2);
 }
