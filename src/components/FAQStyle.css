@@ -59,6 +59,7 @@
     max-height: 0;
     overflow: hidden;
     transition: all 0.4s cubic-bezier(0,1,0,1);
+    color: white;
 }
 
 .contnt.show {

@@ -4,7 +4,7 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    filter: brightness(.9);
+    filter: brightness(.4);
 }
 
 .about-container {
@@ -15,7 +15,7 @@
 }
 
 .about-container .about-content {
-    background: rgba(255, 255, 255, .6);
+    background: rgba(0, 0, 0, .1);
     text-align: center;
     position: absolute;
     width: 100%;
@@ -30,13 +30,13 @@
 
 .about-container .about-content h1 {
     font-size: 4rem;
-    color: #000;
+    color: #fff;
 }
 
 .about-container p {
     font-size: 1.6rem;
     font-weight: 200;
-    color: #000;
+    color: #fff;
 }
 
 .about-img {
