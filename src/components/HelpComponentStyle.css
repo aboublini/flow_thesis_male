@@ -15,7 +15,7 @@
 }
 
 .help-container .help-content {
-    background: rgba(255, 255, 255, .6);
+    background: rgba(0, 0, 0, .3);
     text-align: center;
     position: absolute;
     width: 100%;
@@ -30,13 +30,13 @@
 
 .help-container .help-content h1 {
     font-size: 4rem;
-    color: #000;
+    color: #fff;
 }
 
 .help-container p {
     font-size: 1.6rem;
     font-weight: 200;
-    color: #000;
+    color: #fff;
 }
 
 .help-img {
