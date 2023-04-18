@@ -5,14 +5,42 @@ label {
 
 .login-form {
     display: flex;
-    flex-direction: column;
-    padding: 3.5rem;
+    /*flex-direction: column;*/
+    padding: 2rem;
     margin: auto;
-    width: 400px;
-    height: 600px;
-    background: rgba(0, 0, 0, .7);
+    width: 900px;
+    height: 570px;
     align-items: center;
-    border-radius: 25px;
+}
+
+.left-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 570px;
+    float: left;
+    background: rgba(255, 255, 255, .2);;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.right-log {
+    width: 60%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .7);
+    height: 570px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+h1 {
+    color: white !important;
 }
 
 .login-form label {
@@ -42,12 +70,19 @@ u {
     outline: none;
     border-radius: 25px;
     color: #000;
-    min-width: 200px;
+    width: 250px;
+}
+
+.btn {
+    transition: .4s;
+}
+.btn:hover {
+    transform: scale(1.1) !important;
 }
 
 .login-logo {
-    max-width: 100px;
-    margin-bottom: 1.5rem;
+    width: 150px;
+    margin-bottom: -2rem;
 }
 
 @media screen and (max-width: 640px) {

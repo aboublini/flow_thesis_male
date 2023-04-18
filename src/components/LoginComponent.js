@@ -100,13 +100,21 @@ const LoginComponent = () => {
             </video>
             <div className="content">
                 <form onSubmit={handleLogin} className="login-form">
-                    <img className="login-logo" src={Logo} alt=""/>
-                    <label>Username</label>
-                    <input type="text" name="username" value={username} onChange={e => setUsername(e.target.value)} required/>
-                    <label>Password</label>
-                    <input type="password" name="password" value={password} onChange={e => setPassword(e.target.value)} required/>
-                    <button className="btn">Login</button>
-                    <p>Forgot your password? <br/><u onClick={ResetPassword}>Reset password</u></p>
+                    <div className="left-log">
+                        <img className="login-logo" src={Logo} alt=""/>
+                        <h1>FLOW</h1>
+                        <p>Forgot your password? <br/><u onClick={ResetPassword}>Reset password</u></p>
+                    </div>
+                    <div className="right-log">
+                        <h1>Login</h1>
+                        <label>Username</label>
+                        <input type="text" name="username" value={username} onChange={e => setUsername(e.target.value)} required/>
+                        <label>Password</label>
+                        <input type="password" name="password" value={password} onChange={e => setPassword(e.target.value)} required/>
+                        <button className="btn">Login</button>
+
+                    </div>
+
                 </form>
             </div>
         </div>
