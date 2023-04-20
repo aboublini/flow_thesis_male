@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,7 +12,7 @@ h1, h4, p, a {
 
 body {
     margin: 0;
-    font-family: 'Alata', 'Nirmala UI', 'Roboto', 'Oxygen',
+    font-family: 'Fjalla One', 'Nirmala UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     -webkit-font-smoothing: antialiased;

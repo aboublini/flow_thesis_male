@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 * {
-    font-family: 'Alata', 'Nirmala UI', 'Roboto', 'Oxygen',
+    font-family: 'Fjalla One', 'Nirmala UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif !important;
 }

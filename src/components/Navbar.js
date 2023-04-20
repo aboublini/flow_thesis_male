@@ -1,29 +1,18 @@
 import React, {useState} from 'react';
 import './NavbarStyle.css';
 import {Link} from 'react-router-dom';
-import {FaBars, FaTimes} from "react-icons/fa";
+import {FaBars, FaGithub, FaTimes} from "react-icons/fa";
 import Logo from "../visual-material/logo-full.png";
-
+import { RiLogoutBoxRFill } from "react-icons/ri";
 
 const Navbar = () => {
     // Set nav
     const [Click, setClick] = useState(false);
     const handleClick = () => setClick(!Click);
 
-    // Change navbar color when scrolling
-    const [color, setColor] = useState(false);
-    const changeColor = () => {
-        if (window.scrollY >= 90) {
-            setColor(true);
-        } else {
-            setColor(false);
-        }
-    }
-
-    window.addEventListener('scroll', changeColor);
 
     return (
-        <div className={color ? 'header header-bg' : 'header'}>
+        <div className={'header'}>
             <Link to="/home"><img src={Logo} className="nav-logo" alt=""/></Link>
             <ul className={Click ? "nav-menu active" : "nav-menu"}>
                 <li>
@@ -53,13 +42,21 @@ const Navbar = () => {
                     <Link to="/about">About Flow</Link>
                 </li>
                 <li className="burger">
-                    <Link to="/">Logout</Link>
+                    <Link to="/">Logout <RiLogoutBoxRFill size={18} style={{color: '#fff'}}/></Link>
+
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
                 {Click ? (<FaTimes size={20} style={{color: '#fff'}}/>) : (<FaBars size={20} style={{color: '#fff'}}/>)}
 
 
+            </div>
+
+            <div className="logout">
+                <li>
+                    <Link to="/">Logout <RiLogoutBoxRFill size={18} style={{color: '#fff'}}/></Link>
+
+                </li>
             </div>
         </div>
     );
