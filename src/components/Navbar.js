@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import {FaBars, FaGithub, FaTimes} from "react-icons/fa";
 import Logo from "../visual-material/logo-full.png";
 import { RiLogoutBoxRFill } from "react-icons/ri";
+import { MdArrowDropDown } from "react-icons/md";
 
 const Navbar = () => {
     // Set nav
@@ -28,7 +29,7 @@ const Navbar = () => {
                     <Link to="/notes">Notes</Link>
                 </li>
                 <li className="dropdown">
-                    <button className="dropbtn">More</button>
+                    <button className="dropbtn">More <MdArrowDropDown size={18} style={{color: '#fff'}}/></button>
                     <div className="dropdown-content">
                         <Link to="/help">FAQs</Link>
                         <Link to="/about">About Flow</Link>
