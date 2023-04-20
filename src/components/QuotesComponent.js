@@ -64,6 +64,9 @@
 
 import React, { useEffect } from 'react';
 import './QuotesComponentStyle.css';
+//RxDoubleArrowRight
+import { RxDoubleArrowRight } from "react-icons/rx";
+
 
 const QuotesComponent = () => {
     // Quotes that will be appearing
@@ -132,11 +135,33 @@ const QuotesComponent = () => {
 
     return (
         <div className="quotes">
-            {/*<p className="quote-title">Powerful quote:</p>*/}
-            {/*<br />*/}
-            <p className="quote-text">“{quoteText}”</p>
-            <br />
-            <p className="quote-who">- {quoteWriter}</p>
+            <div className="q-right">
+                <p className="quote-text">“{quoteText}”</p>
+                <br />
+                <p className="quote-who">- {quoteWriter}</p>
+            </div>
+
+            <div className="q-left">
+                <div className="info1">
+                    <h2><RxDoubleArrowRight size={20} style={{color: '#fff', marginRight: '1rem'}}/> WHAT'S NEW?</h2><br/>
+                    <p>It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum
+                        is that it has a more-or-less normal distribution of
+                        letters, as opposed to using 'Content here, content here',
+                        making it look like readable English. </p>
+                </div>
+                <div className="info2">
+                    <h2><RxDoubleArrowRight size={20} style={{color: '#fff', marginRight: '1rem'}}/> LATEST UPDATE</h2><br/>
+                    <p>It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum
+                        is that it has a more-or-less normal distribution of
+                        letters, as opposed to using 'Content here, content here',
+                        making it look like readable English.</p>
+                </div>
+            </div>
+
         </div>
     );
 };

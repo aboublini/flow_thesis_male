@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300&display=swap');
+
 .quotes {
     width: 100%;
     padding: 6rem 0;
-    background: rgba(0, 0, 0, .8);
-    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    /*background-color: grey;*/
+    display: flex;
+    justify-content: space-between;
+    /*text-align: center;*/
 }
 
 
@@ -11,14 +16,15 @@
 }
 
 .quotes .quote-text {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;
+    margin-left: 5rem;
+    /*margin-right: auto;*/
     font-style: italic;
     font-size: 3.3rem;
 }
 
 .quotes .quote-who {
+    margin-left: 5rem;
     font-style: italic;
     font-size: 1.5rem;
 }
@@ -31,6 +37,7 @@
 }
 
 .quote-text, .quote-who {
+    width: 60%;
     opacity: 0;
     transform: translateX(-50px);
     transition: opacity 2s ease-in-out, transform 1s ease-in-out;
@@ -39,4 +46,35 @@
 .quote-text.show, .quote-who.show {
     opacity: 1;
     transform: translateX(0);
+}
+
+.q-left {
+    /*margin-right: 6rem;*/
+    width: 35%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info1 {
+    width: 80%;
+    margin-bottom: 4rem;
+    color: white;
+    text-align: left;
+}
+
+.info2 {
+    width: 80%;
+    color: white;
+    text-align: left;
+}
+
+.info p {
+    font-size: 1rem;
+}
+
+.info h2 {
+    font-size: 1.2rem;
 }
