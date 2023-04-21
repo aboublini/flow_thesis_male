@@ -29,6 +29,7 @@
 /* Month name and year*/
 .css-10fao8b-MuiPickersCalendarHeader-labelContainer {
     pointer-events: none !important;
+
 }
 
 /* Remove select date title above date */
@@ -39,20 +40,24 @@
 /* Date title font size */
 .css-3jvy96-MuiTypography-root-MuiDatePickerToolbar-title {
     font-size: 2.5rem !important;
-    color: white !important;
+    color: black !important;
 }
 
 /* Month title styling */
 .css-dplwbx-MuiPickersCalendarHeader-label {
     font-size: 1.5rem !important;
     margin-bottom: 2px !important;
-    color: white !important;
+    color: black !important;
 }
 
 /* Initials of week days M, T, ... F, S */
 .css-raiqh1-MuiTypography-root-MuiDayPicker-weekDayLabel{
     font-size: 1rem !important;
-    color: white !important;
+    color: black !important;
+    margin-bottom: 1rem !important;
+    margin-top: 0.5rem !important;
+    /*border: 1px solid black !important;*/
+    /*border-radius: 50% !important;*/
 }
 
 .css-ghi3gg-MuiDayPicker-weekContainer {
@@ -91,12 +96,13 @@
 
 .css-jro82b-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button,
 .css-1ae9t7h-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button{
-    color: white !important;
+    color: black !important;
 }
 
 .css-jro82b-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button:hover,
 .css-1ae9t7h-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button:hover{
     background-color: black !important;
+    color: white !important;
 }
 
 .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root:hover {

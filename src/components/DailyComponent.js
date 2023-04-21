@@ -1,6 +1,6 @@
 import React from 'react';
 import './DailyComponentStyle.css'
-import dailyImage from '../visual-material/DailyBackround.jpg';
+import dailyVideo from '../visual-material/DailyBackround.mp4';
 
 const DailyComponent = () => {
     
@@ -10,7 +10,9 @@ const DailyComponent = () => {
             {/*    <source src={dailyVideo} type="image/jpg"/>*/}
             {/*</video>*/}
 
-            <img src={dailyImage} id="daily-image" alt="daily-background"/>
+            <video autoPlay loop muted id="daily-image" >
+                <source src={dailyVideo} type="video/mp4"/>
+            </video>
 
             <div className="daily-content">
                 <div className="daily-title">

@@ -5,6 +5,7 @@ import TodoItem from "./TodoItem";
 import CalendarComponent from "./CalendarComponent";
 import {nanoid} from "nanoid";
 import Swal from "sweetalert2";
+import Logo from "../visual-material/logo.png";
 
 function TodoComponent() {
 
@@ -106,11 +107,15 @@ function TodoComponent() {
 
     return (
         <div className="out">
-            <br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
             <div className="outer-container">
                 <div className="left-content">
                     <div className="todo">
-                        <h1>To-do List</h1>
+                        <h1 className="txt">To-do List</h1>
+                        <p className="txt-second">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form, by
+                            injected humour, or randomised words which don't look even
+                            slightly believable. </p>
                         <TodoForm
                             todos={todos}
                             addTodo={addTodo}
@@ -123,6 +128,16 @@ function TodoComponent() {
                         })}
                     </div>
                 </div>
+                <div className="text"><h1>Some text here! Many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form, by
+                    injected humour, or randomised words.</h1></div>
+            </div>
+            <br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
+            <div className="outer-container">
+                <div className="text"><h1>Some text here! Many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form, by
+                    injected humour, or randomised words.</h1></div>
                 <div className="right-content"><CalendarComponent></CalendarComponent></div>
             </div>
             <br/><br/>

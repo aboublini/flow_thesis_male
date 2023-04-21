@@ -2,13 +2,12 @@
 
 .out {
     /*background: rgba(255, 255, 255, .8);*/
-    background: rgba(0, 0, 0, .8);
+    background: black !important;
 }
 
 .outer-container {
-
     margin: auto;
-    max-width: 70%;
+    max-width: 80%;
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -21,16 +20,16 @@
     /*max-width: 800px;*/
     /*background-color: rgba(255, 255, 255, .6);*/
     /*border-radius: 20px;*/
-    background-color: rgba(255, 255, 255, .3);
-    border-radius: 10px;
+    background-color: white;
     padding: 3rem 2rem;
     min-height: 550px;
-    min-width: 520px;
+    width: 520px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     white-space: pre-wrap;
     margin: auto;
+    color: black;
 }
 
 
@@ -44,15 +43,39 @@
     border-radius: 20px;
 }
 
+.text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.txt {
+    color: #000 !important;
+    width: 70%;
+    margin: auto auto 2rem;
+}
+.txt-second {
+    font-family: Arial, serif !important;
+    color: #000 !important;
+    width: 70%;
+    margin: auto auto 2rem;
+}
+
 h1 {
     margin: 32px 0;
     font-size: 2.5rem;
     font-weight: normal;
-    color: white;
 }
 
 .complete {
     text-decoration: line-through;
+}
+
+.todo-form {
+    display: flex;
+    justify-content: center;
 }
 
 .todo-input {
@@ -60,40 +83,32 @@ h1 {
     margin-bottom: 2rem;
     margin-right: 1rem;
     padding: 0.4rem 1rem;
-    font-size: 1.1rem;
-    font-family: 'Alata', serif !important;
+    font-size: 1rem;
+    font-family: 'Arial', serif !important;
     background-color: #fff;
-    border: none;
+    border: 1px solid black;
     outline: none;
-    border-radius: 20px;
     color: #000;
 }
 
 .todo-button {
-    font-family: 'Alata', 'Nirmala UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-    padding: 4px 11px;
-    font-size: 1.3em;
+    height: 35px;
+    padding: 4.5px 11px;
+    font-size: 1.2em;
     background: #000;
     color: #fff;
-    border: 1px;
+    border: none;
     cursor: pointer;
-    border-radius: 50%;
     transition: .4s;
 }
 
 .todo-row{
-    font-family: 'Alata', serif !important;
-    font-size: 1.1em;
-    color: white;
+    font-family: 'Arial', serif !important;
+    font-size: 1rem;
+    color: black;
     transition: .4s;
 }
 
-.todo-row:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-}
 
 .todo-container {
     display: flex;
@@ -103,7 +118,7 @@ h1 {
 
 .todo-button:hover {
     background: rgba(255, 255, 255, .6);
-    transform: scale(1.2);
+    border: 1px solid black;
     color: #000;
 }
 
@@ -114,7 +129,7 @@ h1 {
     margin: 5px auto;
     padding: 2px;
     border-radius: 5px;
-    width: 350px;
+    width: 305px;
 }
 
 .iconsContainer {
@@ -123,6 +138,15 @@ h1 {
     font-size: 20px;
     cursor: pointer;
 }
+
+.todo-icon {
+    transition: .4s;
+}
+
+.todo-icon:hover {
+    transform: scale(1.1);
+}
+
 
 @media screen and (max-width: 1480px) {
     .out .outer-container {
