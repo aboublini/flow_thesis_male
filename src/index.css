@@ -34,21 +34,4 @@ code {
     monospace;
 }
 
-.btn {
-    font-family: 'Poppins', 'Nirmala UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-    padding: 8px 32px;
-    font-size: 1rem;
-    background: rgba(255, 255, 255);
-    color: #000;
-    border: 1px;
-    cursor: pointer;
-    border-radius: 35px;
-}
-
-
-.btn:hover {
-    background: rgba(255, 255, 255, .8);
-}
 
