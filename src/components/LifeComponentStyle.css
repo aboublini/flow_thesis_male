@@ -1,31 +1,42 @@
 #life-image {
-    width: 100% !important;
-    height: 100%;
+    top: 95px;
+    height: 75%;
     z-index: -1;
     object-fit: cover;
     position: fixed;
-    filter: brightness(70%);
+    filter: brightness(100%);
+    object-position: 100% 50%;
+    width: 60%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .life-container {
-    height: 70vh;
+    height: 85vh;
     width: 100%;
     position: relative;
     object-fit: contain;
+
+    display: flex;
 }
 
 .life-container .life-content {
     background: rgba(0, 0, 0, .4);
     text-align: center;
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: 100%;
+
 }
 
 .life-title {
     position: absolute;
-    top: 50%; left: 50%;
+    top: 50%; left: 80%;
     transform: translate(-50%,-50%);
+    text-transform: uppercase;
 }
 
 .life-container .life-content h1 {

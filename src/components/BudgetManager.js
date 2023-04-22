@@ -145,8 +145,8 @@ const BudgetManager = () => {
         datasets: [{
             label: "€",
             data: [total, remain],
-            backgroundColor: ["#8F867E", "rgba(143, 134, 126, .3)"],
-            borderColor: ["#8F867E", "white"],
+            backgroundColor: ["#000", "rgba(0, 0, 0, .3)"],
+            borderColor: ["#000", "white"],
         }]
     }
 
@@ -156,8 +156,8 @@ const BudgetManager = () => {
             label: 'Expenses Flow',
             data: expenses.map(obj => obj.cost),
             fill: false,
-            borderColor: '#8F867E',
-            tension: 0.1
+            borderColor: '#000',
+            tension: 0.8
         }]
     };
 
@@ -167,7 +167,7 @@ const BudgetManager = () => {
             legend: {
                 labels: {
                     font: {
-                        family: "Raleway"
+                        family: "Arial"
                     }
                 }
             }
@@ -177,39 +177,26 @@ const BudgetManager = () => {
 
     return (
         <div className="outer-dv">
-            <br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
+
+            <div className="general">
+                <h3 className="this-month-title">This month</h3>
+                <div className="this-month">
+                    <div className="general-row">
+                        <Budget budget={budget}/>
+                    </div>
+                    <div className="general-row">
+                        <Remaining remain={remain}/>
+                    </div>
+                    <div className="general-row">
+                        <ExpenseTotal total={total}/>
+                    </div>
+                </div>
+
+            </div>
+
 
             <div className="budget-cont">
-
-                <div className="row-mt3">
-                    <div className="this-month">
-                        <h3 className="mt-3">This month</h3>
-                        <div className="col-m">
-                            <Budget budget={budget}/>
-                        </div>
-                        <div className="col-m">
-                            <Remaining remain={remain}/>
-                        </div>
-                        <div className="col-m">
-                            <ExpenseTotal total={total}/>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="row-mt3">
-                    <div className="exp-list">
-                        <h3 className="mt-3">Expenses</h3>
-                        <div className="col-sm">
-                            <ExpenseList
-                                expenses={expenses}
-                                handleDeleteExpense={deleteExpense}
-                            />
-                        </div>
-                    </div>
-                </div>
-
-
                 <div className="row-mt3">
                     <div className="add-exp">
                         <h3 className="mt-3">Add Expense</h3>
@@ -220,8 +207,20 @@ const BudgetManager = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="row-mt3">
+                    <div className="exp-list">
+                        <h3 className="mt-3">Expenses</h3>
+                        <div className="exp-table">
+                            <ExpenseList
+                                expenses={expenses}
+                                handleDeleteExpense={deleteExpense}
+                            />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <br/>
+
             <div className="chart-cont">
                 <div className="left-chart">
                     <div className="chart-cont">

@@ -27,32 +27,32 @@ const AddExpense = ({ handleAddExpense }) => {
             <div className="row">
                 <br/>
                 <div className="col-sm">
-                    <label for="name">Name: </label>
+                    <label className="name">Name: </label>
                     <input
                            type="text"
                            className="form-control"
                            id="name"
-                           placeholder="Expense name..."
+                           placeholder="Expense name"
                            value={name}
                            onChange={handleNameChange}
                     ></input>
                 </div>
                 <br/>
                 <div className="col-sm">
-                    <label for="cost">  Cost:  </label>
+                    <label className="name">  Cost:  </label>
                     <input
                            type="text"
                            className="form-control"
                            id="cost"
-                           placeholder="Expense cost..."
+                           placeholder="Expense cost"
                            value={cost}
                            onChange={handleCostChange}
                     ></input>
                 </div>
                 <br/>
                 <div className="col-sm">
-                    <button type="submit" className="save" onClick={handleSaveClick}>
-                        +
+                    <button type="submit" className="save-btn" onClick={handleSaveClick}>
+                        Add
                     </button>
                 </div>
             </div>

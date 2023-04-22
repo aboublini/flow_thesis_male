@@ -1,6 +1,7 @@
 #daily-image {
     /*width: 100% !important;*/
-    height: 80%;
+    top: 95px;
+    height: 75%;
     z-index: -1;
     object-fit: cover;
     position: fixed;
