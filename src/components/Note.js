@@ -1,5 +1,5 @@
 import React from 'react';
-import { RiDeleteBin7Line } from "react-icons/ri"
+import { RiDeleteBin7Fill } from "react-icons/ri"
 
 
 const Note = ({ id, text, date, handleDeleteNote }) => {
@@ -8,7 +8,7 @@ const Note = ({ id, text, date, handleDeleteNote }) => {
             <span className="saved-txt">{text}</span>
             <div className="note-footer">
                 <small>{date}</small>
-                <RiDeleteBin7Line
+                <RiDeleteBin7Fill
                     className="delete-icon"
                     size="1.3em"
                     onClick={() => handleDeleteNote(id)}

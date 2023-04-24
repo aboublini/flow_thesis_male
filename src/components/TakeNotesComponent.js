@@ -82,7 +82,7 @@ const TakeNotesComponent = () => {
 
     return (
         <div className="out">
-            <br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
             <div className="tn-container">
                 <NotesList
                     notes={notes}

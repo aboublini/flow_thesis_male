@@ -1,6 +1,7 @@
 import React from 'react';
 import './NotesComponentStyle.css'
-import notesImage from '../visual-material/NotesBackround.jpg';
+import notesVideo from '../visual-material/NotesBackround.mp4';
+import lifeVideo from "../visual-material/LifeBackround.mp4";
 
 
 const NotesComponent = () => {
@@ -8,7 +9,9 @@ const NotesComponent = () => {
      return (
         <div className="notes-container">
 
-            <img src={notesImage} id="notes-image" alt="notes-background"/>
+            <video autoPlay loop muted id="notes-image" >
+                <source src={notesVideo} type="video/mp4"/>
+            </video>
 
             <div className="notes-content">
                 <div className="notes-title">

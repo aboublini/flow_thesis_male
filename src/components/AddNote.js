@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Swal from "sweetalert2";
-import { GrUploadOption } from "react-icons/gr"
+import { IoMdAddCircle } from "react-icons/io"
 
 const AddNote = ({ handleAddNote }) => {
     const [noteText, setNoteText] = useState("");
@@ -41,7 +41,7 @@ const AddNote = ({ handleAddNote }) => {
         ></textarea>
         <div className="note-footer">
             <small>{characterLimit - noteText.length} Remaining</small>
-            <button className="save" onClick={handleSaveClick}><GrUploadOption/></button>
+            <button className="save" onClick={handleSaveClick}><IoMdAddCircle/></button>
         </div>
     </div>);
 }
