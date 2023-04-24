@@ -77,14 +77,9 @@
 }
 
 .delete-icon {
-    cursor: pointer;
-    color: black;
     transition: .4s;
 }
 
 .delete-icon:hover {
-    background-color: transparent;
-    color: grey;
-    cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }

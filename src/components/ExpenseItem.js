@@ -1,5 +1,5 @@
 import React from "react";
-import { RiDeleteBin7Line } from "react-icons/ri"
+import { RiDeleteBin7Fill } from "react-icons/ri"
 
 const ExpenseItem = ({ id, name, cost, handleDeleteExpense}) => {
     return (
@@ -10,7 +10,7 @@ const ExpenseItem = ({ id, name, cost, handleDeleteExpense}) => {
                     {cost}€
                     {"  "}
                 </span>
-                <RiDeleteBin7Line
+                <RiDeleteBin7Fill
                     className="delete-icon"
                     size="1.5em"
                     onClick={() => handleDeleteExpense(id)}
