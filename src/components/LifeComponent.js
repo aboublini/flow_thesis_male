@@ -1,6 +1,7 @@
 import React from 'react';
 import './LifeComponentStyle.css'
 import lifeVideo from "../visual-material/LifeBackround.mp4";
+import Logo from "../visual-material/logo.png";
 
 const LifeComponent = () => {
     return (
@@ -12,8 +13,10 @@ const LifeComponent = () => {
 
             <div className="life-content">
                 <div className="life-title">
-                    <h2>Budgeting is easier with flow.</h2>
+                    <h2>Budgeting is now easier with flow.</h2>
                     <p>Simple. Easy. Responsible.</p>
+                    <br/>
+                    <img src={Logo} className="lg" alt=""/>
                 </div>
             </div>
         </div>

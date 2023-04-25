@@ -40,6 +40,7 @@
 }
 
 .life-container .life-content h2 {
+    width: 300px;
     color: white;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -97,8 +98,8 @@
 
 .reset-container,
 .remove-container {
-    background: rgba(255, 255, 255, .8);
-    border-radius: 20px;
+    border-radius: 0px;
+    background: #fff;
     max-width: 400px;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -106,30 +107,50 @@
 
 .reset-container .reset-confirm,
 .remove-container .remove-confirm{
-    background-color: rgba(143, 134, 126, .9);
-    border-radius: 20px;
+    border-radius: 0px;
+    background-color: #000;
     width: 90px;
+    margin-top: 1.5rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    transition: .3s;
+    text-transform: uppercase;
 }
 
 .reset-container .reset-confirm:hover,
 .remove-container .remove-confirm:hover {
-    background-color: rgba(143, 134, 126, .5);
+    border-radius: 0px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
 }
 
 .reset-container .reset-cancel, .remove-container .remove-cancel{
-    background-color: rgba(143, 134, 126, .9);
-    border-radius: 20px;
+    border-radius: 0px;
+    background-color: #000;
     width: 90px;
+    margin-top: 1.5rem;
+    border: 1px solid white;
+    padding: 0.5rem;
+    transition: .3s;
+    text-transform: uppercase;
 }
 
 .reset-container .reset-cancel:hover,
 .remove-container .remove-cancel:hover {
-    background-color: rgba(143, 134, 126, .5);
+    border-radius: 0px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
 }
 
 .reset-container-ok {
-    background: rgba(255, 255, 255, .8);
-    border-radius: 20px;
+    background: #fff;
+    border-radius: 0px;
     max-width: 400px;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -141,8 +162,28 @@
 }
 
 .reset-container-ok .reset-ok {
-    background-color: rgba(143, 134, 126, .9);
-    border-radius: 20px;
+    border-radius: 0px;
+    background-color: #000;
     width: 90px;
+    border: 1px solid white;
+    padding: 0.5rem;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.reset-container-ok .reset-ok:hover {
+    border-radius: 0px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.reset-input {
+    font-family: "Arial", sans-serif !important;
+    margin-top: 1.5rem;
+    border-radius: 0px;
+    border: 1px solid black;
 }
 

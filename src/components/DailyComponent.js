@@ -1,6 +1,7 @@
 import React from 'react';
 import './DailyComponentStyle.css'
 import dailyVideo from '../visual-material/DailyBackround.mp4';
+import Logo from "../visual-material/logo.png";
 
 const DailyComponent = () => {
     
@@ -18,6 +19,8 @@ const DailyComponent = () => {
                 <div className="daily-title">
                     <h2>What is your main goal for today?</h2>
                     <p>Stress less. Organize more.</p>
+                    <br/>
+                    <img src={Logo} className="lg" alt=""/>
                 </div>
             </div>
         </div>

@@ -34,4 +34,7 @@ code {
     monospace;
 }
 
-
+.lg {
+    transform: scaleY(-1);
+    width: 50px;
+}

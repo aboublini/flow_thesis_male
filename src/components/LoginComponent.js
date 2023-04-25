@@ -74,7 +74,8 @@ const LoginComponent = () => {
                     {customClass:{
                             popup: 'reset-container-ok',
                             title: 'reset-title-ok',
-                            confirmButton: 'reset-ok'
+                            confirmButton: 'reset-ok',
+                            input: 'reset-input'
                         },
                         title: "An email has been sent to " + result.value + " with instructions on how to recover your password."
                     });

@@ -4,7 +4,7 @@
     z-index: -1;
     object-fit: cover;
     position: fixed;
-    filter: brightness(100%);
+    filter: brightness(85%);
     /*object-position: 100% 30%;*/
     width: 60%;
     float: right;
@@ -39,6 +39,7 @@
 }
 
 .notes-container .notes-content h2 {
+    width: 300px;
     color: white;
     letter-spacing: 0.5px;
     text-transform: uppercase;

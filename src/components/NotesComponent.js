@@ -2,6 +2,7 @@ import React from 'react';
 import './NotesComponentStyle.css'
 import notesVideo from '../visual-material/NotesBackround.mp4';
 import lifeVideo from "../visual-material/LifeBackround.mp4";
+import Logo from "../visual-material/logo.png";
 
 
 const NotesComponent = () => {
@@ -15,8 +16,10 @@ const NotesComponent = () => {
 
             <div className="notes-content">
                 <div className="notes-title">
-                    <h2>All your notes in one place.</h2>
+                    <h2>All your notes organized in one place.</h2>
                     <p>Take notes anytime, anywhere.</p>
+                    <br/>
+                    <img src={Logo} className="lg" alt=""/>
                 </div>
             </div>
         </div>

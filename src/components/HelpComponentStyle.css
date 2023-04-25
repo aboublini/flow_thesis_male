@@ -5,7 +5,7 @@
     object-fit: cover;
     position: fixed;
     /*filter: brightness(100%);*/
-    filter: grayscale(90%);
+    filter: grayscale(40%);
     object-position: 100% 50%;
     width: 60%;
     float: right;
