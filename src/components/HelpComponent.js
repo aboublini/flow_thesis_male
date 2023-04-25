@@ -13,9 +13,8 @@ const HelpComponent = () => {
             </video>
             <div className="help-content">
                 <div className="help-title">
-                    <h1>Having trouble with flow?</h1>
-                    <p>We've got you covered. Download our user manual.</p>
-                    <br/><br/>
+                    <h2>Having trouble with flow?</h2>
+                    <p>We've got you covered.</p>
 
                     <a href={manual} target="_blank"
                        rel="noreferrer">

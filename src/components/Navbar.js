@@ -32,15 +32,11 @@ const Navbar = () => {
                     <button className="dropbtn">More <MdArrowDropDown size={18} style={{color: '#fff'}}/></button>
                     <div className="dropdown-content">
                         <Link to="/help">FAQs</Link>
-                        <Link to="/about">About Flow</Link>
                         <Link to="/">Logout</Link>
                     </div>
                 </li>
                 <li className="burger">
                     <Link to="/help">FAQs</Link>
-                </li>
-                <li className="burger">
-                    <Link to="/about">About Flow</Link>
                 </li>
                 <li className="burger">
                     <Link to="/">Logout <RiLogoutBoxRFill size={18} style={{color: '#fff'}}/></Link>

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './FAQStyle.css'
 import {Link} from "react-router-dom";
 import {RiCheckLine, RiDeleteBin7Line} from "react-icons/ri";
+import {RxDoubleArrowRight} from "react-icons/rx";
 
 function FAQ() {
     const data = [
@@ -89,6 +90,7 @@ function FAQ() {
 
         return (
         <div className="faqs">
+            <br/><br/><br/><br/><br/><br/><br/><br/>
             <div className="wrapper">
                 <div className="accordion">
                     <div className="header-faq">
@@ -108,6 +110,29 @@ function FAQ() {
                     ))}
 
                 </div>
+            </div>
+            <div className="about">
+                <div className="inside-about">
+                    <div className="info1">
+                        <h2><RxDoubleArrowRight size={20} style={{color: '#fff', marginRight: '1rem'}}/> WHAT IS FLOW?</h2><br/>
+                        <p>I am currently studying Computer Science at the department of
+                            Informatics of University of Piraeus.
+                            I have taken classes relative to Web Development, AI,
+                            Design Patterns, UI/UX, Data Structures, Algorithms, Cryptography etc.
+                            My academic interests include web and desktop frontend technologies,
+                            cryptographic algorithms, cloud design patterns and Information Systems. </p>
+                    </div>
+                    <div className="info2">
+                        <h2><RxDoubleArrowRight size={20} style={{color: '#fff', marginRight: '1rem'}}/> BACHELOR THESIS</h2><br/>
+                        <p>I am currently studying Computer Science at the department of
+                            Informatics of University of Piraeus.
+                            I have taken classes relative to Web Development, AI,
+                            Design Patterns, UI/UX, Data Structures, Algorithms, Cryptography etc.
+                            My academic interests include web and desktop frontend technologies,
+                            cryptographic algorithms, cloud design patterns and Information Systems.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     );

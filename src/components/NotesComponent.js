@@ -15,7 +15,7 @@ const NotesComponent = () => {
 
             <div className="notes-content">
                 <div className="notes-title">
-                    <h1>All your notes in one place.</h1>
+                    <h2>All your notes in one place.</h2>
                     <p>Take notes anytime, anywhere.</p>
                 </div>
             </div>

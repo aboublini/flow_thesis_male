@@ -12,7 +12,7 @@ const LifeComponent = () => {
 
             <div className="life-content">
                 <div className="life-title">
-                    <h1>Budgeting is easier with flow.</h1>
+                    <h2>Budgeting is easier with flow.</h2>
                     <p>Simple. Easy. Responsible.</p>
                 </div>
             </div>
