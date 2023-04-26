@@ -27,7 +27,7 @@
 
 .this-month-title {
     /*margin: 10px 0;*/
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     font-size: 1.5rem;
     font-weight: normal;
     text-align: center;
@@ -38,11 +38,14 @@
 .this-month {
     display: flex;
     justify-content: space-between;
-    /*margin-right: 1rem;*/
-    /*margin-left: 1rem;*/
-    /*margin-bottom: 1rem;*/
+    font-size: 1.1rem;
     margin-top: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
 
+.general-name {
+    margin-bottom: 1rem;
 }
 
 .mt-3 {
@@ -54,7 +57,9 @@
     text-transform: uppercase;
 }
 
-
+.alert .el {
+    font-size: 1.6rem;
+}
 
 .row-mt3 {
     background-color: #fff;

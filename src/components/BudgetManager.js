@@ -145,7 +145,7 @@ const BudgetManager = () => {
         datasets: [{
             label: "€",
             data: [total, remain],
-            backgroundColor: ["#000", "rgba(0, 0, 0, .3)"],
+            backgroundColor: ["#000", "rgba(0, 0, 0, .1)"],
             borderColor: ["#000", "white"],
         }]
     }
@@ -157,7 +157,7 @@ const BudgetManager = () => {
             data: expenses.map(obj => obj.cost),
             fill: false,
             borderColor: '#000',
-            tension: 0.8
+            tension: 0.3
         }]
     };
 
