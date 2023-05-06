@@ -67,12 +67,14 @@
     margin-bottom: 4rem;
     color: white;
     text-align: justify;
+    transition: .3s;
 }
 
 .info2 {
     width: 70%;
     color: white;
     text-align: justify;
+    transition: .3s;
 }
 
 .info p {

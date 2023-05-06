@@ -6,7 +6,7 @@
     position: fixed;
     /*filter: brightness(100%);*/
     filter: grayscale(40%);
-    object-position: 100% 50%;
+    /*object-position: 100% 50%;*/
     width: 60%;
     float: right;
     display: flex;
@@ -34,7 +34,7 @@
 
 .help-title {
     position: absolute;
-    top: 54%; left: 80%;
+    top: 55%; left: 80%;
     transform: translate(-50%,-50%);
     text-transform: uppercase;
 }
@@ -79,14 +79,28 @@
     color: black;
 }
 
-@media screen and (max-width: 640px) {
-    .help-content h1 {
-        font-size: 3rem;
+@media screen and (max-width: 1230px) {
+    .help-container {
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        transition: .3s;
     }
 
-    .help--content p {
-        font-size: 1.4rem;
-        margin-bottom: 1.6rem;
+    #help-video {
+        width: 100%;
+        height: 70%;
+        transition: .3s;
+        filter: brightness(.6);
+    }
+
+    .help-title {
+        left: 50%;
+        transition: .3s;
+    }
+
+    .btn-help {
+        background-color: transparent;
     }
 }
 

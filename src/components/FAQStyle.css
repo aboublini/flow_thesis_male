@@ -3,7 +3,7 @@
     padding: 6rem 0;
     background: #000;
     display: flex;
-
+    transition: .3s;
 }
 
 .wrapper {
@@ -11,6 +11,7 @@
     padding: 30px 80px 80px;
     float: left;
     display: flex;
+    transition: .3s;
 }
 
 .about {
@@ -23,6 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: .3s;
 }
 
 .header-faq {
@@ -104,4 +106,30 @@ ol {
 
 .plus {
     font-size: 1rem;
+}
+
+
+@media screen and (max-width: 1230px) {
+    .faqs {
+        display: flex;
+        flex-direction: column;
+        transition: .3s;
+    }
+
+    .wrapper {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .about {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        transition: .3s;
+    }
+
+    .info1, .info2 {
+        width: 100%;
+        transition: .3s;
+    }
 }
