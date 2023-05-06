@@ -6,21 +6,19 @@ import {Link} from "react-router-dom";
 
 const HomeComponent = () => {
     return (
-        <div className="container">
-            <div className="left-vid">
-                <video autoPlay loop muted id="video" >
-                    <source src={homeVideo} type="video/mp4"/>
-                </video>
-            </div>
+        <div className="home-container">
 
-            <div className="content">
-                <div className="welcome">
+            <video autoPlay loop muted id="home-video" >
+                <source src={homeVideo} type="video/mp4"/>
+            </video>
+
+
+            <div className="home-content">
+                <div className="home-welcome">
                     <img src={Logo} className="home-img" alt=""/>
                     <h2>Take your life into your own hands.</h2>
                     <button className="more"><Link to="/help">LEARN MORE</Link></button>
                 </div>
-
-
             </div>
 
 

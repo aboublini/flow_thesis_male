@@ -95,13 +95,13 @@ const LoginComponent = () => {
     }
 
     return (
-        <div className="hero">
+        <div className="hero-login">
             <video autoPlay loop muted id="login-video">
                     <source src={colourVideo} type="video/mp4"/>
             </video>
 
 
-            <div className="content">
+            <div className="content-login">
                 <form onSubmit={handleLogin} className="login-form">
                     <div className="left-log">
                         <img className="login-logo" src={Logo} alt=""/>
