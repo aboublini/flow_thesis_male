@@ -118,7 +118,7 @@
     border-radius: 0px;
     background-color: #000;
     width: 90px;
-    margin-top: 1.5rem;
+    margin-top: 0;
     border: 1px solid white;
     padding: 0.5rem;
     transition: .3s;
@@ -139,7 +139,7 @@
     border-radius: 0px;
     background-color: #000;
     width: 90px;
-    margin-top: 1.5rem;
+    margin-top: 0;
     border: 1px solid white;
     padding: 0.5rem;
     transition: .3s;

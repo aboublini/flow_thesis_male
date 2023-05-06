@@ -67,6 +67,11 @@ label {
 
 }
 
+.login-header {
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+}
+
 h1 {
     color: white !important;
 }

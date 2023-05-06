@@ -107,7 +107,7 @@ const LoginComponent = () => {
                         <img className="login-logo" src={Logo} alt=""/>
                     </div>
                     <div className="right-log">
-                        <h1>Login</h1>
+                        <h1 className="login-header">Login</h1>
                         <label>Username</label>
                         <input type="text" name="username" value={username} onChange={e => setUsername(e.target.value)} required/>
                         <label>Password</label>
