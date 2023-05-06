@@ -132,8 +132,9 @@ function TodoComponent() {
                     available, but the majority have suffered alteration in some form, by
                     injected humour, or randomised words.</h1></div>
             </div>
-            <br/><br/>
-            <br/><br/><br/><br/><br/><br/><br/><br/>
+            <div className="nothing"><br/><br/>
+                <br/><br/><br/></div>
+            <br/><br/><br/><br/><br/>
             <div className="outer-container">
                 <div className="text"><h1>Some text here! Many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some form, by

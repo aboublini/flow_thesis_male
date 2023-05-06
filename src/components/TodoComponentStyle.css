@@ -63,9 +63,9 @@
     margin: auto auto 2rem;
 }
 
-h1 {
+.text h1 {
     margin: 32px 0;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: normal;
 }
 
@@ -151,6 +151,17 @@ h1 {
 @media screen and (max-width: 1480px) {
     .out .outer-container {
         grid-template-columns: 1fr;
+        transition: .3s;
+    }
+
+    .nothing {
+        display: none;
+        transition: .3s;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+        transition: .3s;
     }
 
 }
