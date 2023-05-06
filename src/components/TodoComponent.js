@@ -120,12 +120,14 @@ function TodoComponent() {
                             todos={todos}
                             addTodo={addTodo}
                         />
+                        <div className="sorted">
+                            {sortedTodos.map((todo) => {
+                                return (
+                                    <TodoItem removeTodo={removeTodo} completeTodo={completeTodo} todo={todo} key={todo.id}/>
+                                )
+                            })}
+                        </div>
 
-                        {sortedTodos.map((todo) => {
-                            return (
-                                <TodoItem removeTodo={removeTodo} completeTodo={completeTodo} todo={todo} key={todo.id}/>
-                            )
-                        })}
                     </div>
                 </div>
                 <div className="text"><h1>Some text here! Many variations of passages of Lorem Ipsum

@@ -15,14 +15,10 @@
 
 
 .left-content, .right-content {
-    /*text-align: center;*/
-    /*margin: auto;*/
-    /*max-width: 800px;*/
-    /*background-color: rgba(255, 255, 255, .6);*/
-    /*border-radius: 20px;*/
+
     background-color: white;
     padding: 3rem 2rem;
-    min-height: 550px;
+    height: 550px;
     width: 520px;
     display: flex;
     flex-direction: column;
@@ -147,6 +143,11 @@
     transform: scale(1.1);
 }
 
+.sorted {
+    width: 100%;
+    overflow-y: auto;
+    height: 150px;
+}
 
 @media screen and (max-width: 1480px) {
     .out .outer-container {
