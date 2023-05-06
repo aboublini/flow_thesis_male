@@ -4,6 +4,7 @@ label {
 }
 
 #login-video {
+    transition: .3s;
     position: fixed;
     /*width: 100%;*/
     height: 100%;
@@ -20,6 +21,7 @@ label {
 }
 
 .login-form {
+    transition: .3s;
     display: flex;
     /*flex-direction: column;*/
     padding: 2rem;
@@ -35,6 +37,7 @@ label {
     position: absolute;
     width: 100%;
     height: 100%;
+    transition: .3s;
 }
 
 .login-form {
