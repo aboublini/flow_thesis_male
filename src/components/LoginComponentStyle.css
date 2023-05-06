@@ -24,7 +24,7 @@ label {
     /*flex-direction: column;*/
     padding: 2rem;
     margin: auto;
-    width: 900px;
+    /*width: 900px;*/
     height: 570px;
     align-items: center;
 }
@@ -121,8 +121,29 @@ u {
     margin-bottom: 1.3rem;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1230px) {
     .login-form {
+        transition: .3s;
+        left: 50%;
+    }
 
+    #login-video {
+        width: 100%;
+        height: 60%;
+        transition: .3s;
+        filter: brightness(.6);
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        transition: .3s;
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        top: 60%;
     }
 }

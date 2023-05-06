@@ -97,8 +97,10 @@ const LoginComponent = () => {
     return (
         <div className="hero">
             <video autoPlay loop muted id="login-video">
-                <source src={colourVideo} type="video/mp4"/>
+                    <source src={colourVideo} type="video/mp4"/>
             </video>
+
+
             <div className="content">
                 <form onSubmit={handleLogin} className="login-form">
                     <div className="left-log">
@@ -113,7 +115,6 @@ const LoginComponent = () => {
                         <button className="log-button">Login</button>
                         <p>Forgot your password? <br/><u onClick={ResetPassword}>Reset password</u></p>
                     </div>
-
                 </form>
             </div>
         </div>
