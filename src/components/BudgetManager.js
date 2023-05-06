@@ -90,7 +90,18 @@ const BudgetManager = () => {
                     },
                     title: "Expense name or cost missing!"
                 });
-        } else {
+        }
+        else if (isNaN(price)) {
+            Swal.fire(
+                {customClass:{
+                        popup: 'reset-container-ok',
+                        title: 'reset-title-ok',
+                        confirmButton: 'reset-ok'
+                    },
+                    title: "Price must be a number!"
+                });
+        }
+        else {
             const newExpenses = [...expenses, newExpense];
             setExpenses(newExpenses);
         }
