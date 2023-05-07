@@ -112,10 +112,8 @@ function TodoComponent() {
                 <div className="left-content">
                     <div className="todo">
                         <h1 className="txt">To-do List</h1>
-                        <p className="txt-second">There are many variations of passages of Lorem Ipsum available,
-                            but the majority have suffered alteration in some form, by
-                            injected humour, or randomised words which don't look even
-                            slightly believable. </p>
+                        <p className="txt-second">Tip: Once you have made the list of all the things you need to do,
+                        it's much easier to prioritize tasks on it.</p>
                         <TodoForm
                             todos={todos}
                             addTodo={addTodo}
@@ -130,9 +128,8 @@ function TodoComponent() {
 
                     </div>
                 </div>
-                <div className="text"><h1>Some text here! Many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some form, by
-                    injected humour, or randomised words.</h1></div>
+                <div className="text"><h1>The most effective way to do it is to do it! With flow's to-do
+                list you can easily break down your big goals into items, and items into tasks.</h1></div>
             </div>
             <div className="nothing"><br/><br/>
                 <br/><br/><br/></div>
