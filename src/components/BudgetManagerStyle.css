@@ -64,7 +64,7 @@
 .row-mt3 {
     background-color: #fff;
     padding: 1rem;
-    min-height: 270px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -109,6 +109,13 @@
 
 }
 
+.exp-sorted {
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    overflow-y: auto;
+    height: 200px;
+}
 
 .list-row {
     display: flex;

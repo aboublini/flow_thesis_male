@@ -28,7 +28,7 @@ const TakeNotesComponent = () => {
 
     // Retrieve notes when page loads
     useEffect(() => {
-        const savedNotes = JSON.parse(localStorage.getItem('react-notes-app-data'));
+        const savedNotes = JSON.parse(localStorage.getItem('react-notes-app-data-male'));
 
         if (savedNotes){
             setNotes(savedNotes);
@@ -52,7 +52,7 @@ const TakeNotesComponent = () => {
     // Save notes to local storage
     useEffect(() => {
         localStorage.setItem(
-            'react-notes-app-data',
+            'react-notes-app-data-male',
             JSON.stringify(notes))
     }, [notes]);
 

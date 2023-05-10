@@ -144,7 +144,9 @@
 }
 
 .sorted {
-    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
     overflow-y: auto;
     height: 150px;
 }
