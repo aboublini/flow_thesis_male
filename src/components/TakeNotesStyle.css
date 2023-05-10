@@ -45,16 +45,48 @@
     border: none;
     resize: none;
     background-color: transparent ;
-    font-family: 'Commissioner', serif !important;
+    /*font-family: 'Commissioner', serif !important;*/
     margin-bottom: 0.1rem;
     padding: 0.5rem 0.9rem;
     font-size: 1.1rem;
 }
 
 .saved-txt {
+    /*font-family: 'Commissioner', serif !important;*/
+    font-size: 1.1rem;
+}
+
+.font-commissioner {
     font-family: 'Commissioner', serif !important;
     font-size: 1.1rem;
 }
+
+.font-arial {
+    font-family: Arial, serif !important;
+    font-size: 1.1rem;
+}
+
+.settings-notes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 28px;
+    margin-bottom: 0.8rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.settings-notes:hover {
+    transition: .2s;
+    border: 1px solid #fff;
+}
+
+.settings-notes p {
+    font-size: 1.2rem;
+    margin-top: 0 !important;
+}
+
 
 .txt-area:focus{
     outline: none;

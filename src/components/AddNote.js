@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Swal from "sweetalert2";
 import { IoMdAddCircle } from "react-icons/io"
 
-const AddNote = ({ handleAddNote }) => {
+const AddNote = ({ handleAddNote, fontClass }) => {
     const [noteText, setNoteText] = useState("");
     const characterLimit = 200;
 
@@ -32,7 +32,7 @@ const AddNote = ({ handleAddNote }) => {
 
     return(<div className="note new">
         <textarea
-            className="txt-area"
+            className={"txt-area " + fontClass}
             rows="8"
             cols="10"
             placeholder="Type to add a new note..."

@@ -132,7 +132,8 @@ function TodoComponent() {
                 list you can easily break down your big goals into items, and items into tasks.</h1></div>
             </div>
             <div className="nothing"><br/><br/>
-                <br/><br/><br/></div>
+                <br/><br/><br/>
+            </div>
             <br/><br/><br/><br/><br/>
             <div className="outer-container">
                 <div className="text"><h1>Some text here! Many variations of passages of Lorem Ipsum
