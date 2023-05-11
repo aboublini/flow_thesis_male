@@ -111,7 +111,7 @@ function TodoComponent() {
             <div className="outer-container">
                 <div className="left-content">
                     <div className="todo">
-                        <h1 className="txt">To-do List</h1>
+                        <h1 className="txt">TO-DO LIST</h1>
                         <p className="txt-second">Tip: Once you have made the list of all the things you need to do,
                         it's much easier to prioritize tasks on it.</p>
                         <TodoForm
@@ -136,9 +136,8 @@ function TodoComponent() {
             </div>
             <br/><br/><br/><br/><br/>
             <div className="outer-container">
-                <div className="text"><h1>Some text here! Many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some form, by
-                    injected humour, or randomised words.</h1></div>
+                <div className="text"><h1>Busy schedule? Don't let it control you. Time to maximize your time! Stay one step
+                    ahead of your priorities and track your daily life with ease.</h1></div>
                 <div className="right-content"><CalendarComponent></CalendarComponent></div>
             </div>
             <br/><br/>

@@ -144,21 +144,21 @@ const QuotesComponent = () => {
             <div className="q-left">
                 <div className="info1">
                     <h2><RxDoubleArrowRight size={20} style={{color: '#fff', marginRight: '1rem'}}/> WHAT'S NEW?</h2><br/>
-                    <p>It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout. The point of using Lorem Ipsum
-                        is that it has a more-or-less normal distribution of
-                        letters, as opposed to using 'Content here, content here',
-                        making it look like readable English. </p>
+                    <p>
+                        Now, flow gives you the ability to change the font family of your notes.
+                        Choose the font that suits you best among three very impressive font families:
+                        the classic Arial, the dynamic Fjalla One and the minimalist Commissioner.
+                        Always remember: Quality notes inspire curiosity and encourage reading!
+                    </p>
                 </div>
                 <div className="info2">
                     <h2><RxDoubleArrowRight size={20} style={{color: '#fff', marginRight: '1rem'}}/> LATEST UPDATE</h2><br/>
-                    <p>It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout. The point of using Lorem Ipsum
-                        is that it has a more-or-less normal distribution of
-                        letters, as opposed to using 'Content here, content here',
-                        making it look like readable English.</p>
+                    <p>
+                        The latest upgrade of flow focuses on improving the quality of the user interface
+                        and enhancing the visual part. The FAQs and ABOUT pages from the previous version
+                        have been merged into the HELP page, and a new line chart has been added to the
+                        budget manager, so you can always keep track of your expenses!
+                    </p>
                 </div>
             </div>
 
