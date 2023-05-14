@@ -126,8 +126,8 @@
     width: 70%;
     transition: .4s;
     border-radius: 5px;
-    font-family: Impact, sans-serif !important;
-    font-size: 1.1rem;
+    font-family: 'Arial', sans-serif !important;
+    font-size: 1rem;
     letter-spacing: 0.2px;
 }
 
