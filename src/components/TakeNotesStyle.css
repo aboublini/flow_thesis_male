@@ -73,6 +73,7 @@
     border: none;
     cursor: pointer;
     background-color: transparent;
+    padding-right: 0.3rem;
 }
 
 .settings-notes:hover {
