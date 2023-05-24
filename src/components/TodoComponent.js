@@ -127,7 +127,7 @@ function TodoComponent() {
 
                     </div>
                 </div>
-                <div className="text"><h1>The most effective way to do it is to do it! With flow's to-do
+                <div className="text"><h1>The most effective way to do it is to do it! With Flow's to-do
                 list you can easily break down your big goals into items, and items into tasks.</h1></div>
             </div>
             <div className="nothing"><br/><br/>
@@ -135,7 +135,7 @@ function TodoComponent() {
             </div>
             <br/><br/><br/><br/><br/>
             <div className="outer-container">
-                <div className="text"><h1>Busy schedule? Don't let it control you. Time to maximize your time! Stay one step
+                <div className="text"><h1>Busy schedule? Don't let it control you. It's time to maximize your time! Stay one step
                     ahead of your priorities and track your daily life with ease.</h1></div>
                 <div className="right-content"><CalendarComponent></CalendarComponent></div>
             </div>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './FAQStyle.css'
 import {Link} from "react-router-dom";
-import {RiCheckLine, RiDeleteBin7Fill, RiDeleteBin7Line} from "react-icons/ri";
+import {RiDeleteBin7Fill} from "react-icons/ri";
 import {RxDoubleArrowRight} from "react-icons/rx";
 import {AiFillCheckSquare} from "react-icons/ai";
 import {FaFont} from "react-icons/fa";
@@ -9,10 +9,10 @@ import {FaFont} from "react-icons/fa";
 function FAQ() {
     const data = [
         {
-            question: "What exactly is flow?",
-            answer: "You can think of flow as an all-in-one, productivity web app " +
+            question: "What exactly is Flow?",
+            answer: "You can think of Flow as an all-in-one, productivity web app " +
                 "that allows you to manage your personal life via its flexible tools. " +
-                "Whether you are currently studying or working, flow is here to take " +
+                "Whether you are currently studying or working, Flow is here to take " +
                 "your productivity to the next level. With a variety of features, " +
                 "such as creating to-do lists, managing money, taking notes etc., " +
                 "you can organize information and keep track of everything that " +
@@ -133,7 +133,7 @@ function FAQ() {
                         <p>
                             Flow is an online application developed in React JS as part of my bachelor thesis
                             titled "Gendered UI/UX: A Comparative Study of Gender-Specific and Gender-Neutral
-                            Web Design". As a productivity tool, flow is designed to help users streamline
+                            Web Design". As a productivity tool, Flow is designed to help users streamline
                             their daily routines and accomplish more in less time. The application includes
                             features such as task and budget management, calendar integration, and note-taking,
                             all of which are accessible through a user-friendly interface. For its implementation,
@@ -144,7 +144,7 @@ function FAQ() {
                     <div className="info2">
                         <h2><RxDoubleArrowRight size={20} style={{color: '#fff', marginRight: '1rem'}}/> BACHELOR THESIS</h2><br/>
                         <p>
-                            My bachelor thesis, entitled as "Gendered UI/UX: A Comparative Study of Gender-Specific
+                            My bachelor thesis, entitled "Gendered UI/UX: A Comparative Study of Gender-Specific
                             and Gender-Neutral Web Design" is a research project that explores the impact of gender
                             on UI/UX design. In particular, the study aims to compare gender-specific and gender-neutral
                             web design and determine whether there are significant differences in how users interact with
