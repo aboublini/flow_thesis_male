@@ -14,7 +14,6 @@
 .nav-logo {
     max-width: 120px;
     color: white;
-    /*margin-bottom: 1rem;*/
 }
 
 
@@ -168,7 +167,6 @@
 
 .dropdown-content a:hover {
     background-color: rgba(255, 255, 255, .1);
-    /*border-bottom: 2px solid #8F867E;*/
 }
 
 .dropdown:hover .dropdown-content {

@@ -1,7 +1,6 @@
 import React from 'react';
 import './NotesComponentStyle.css'
 import notesVideo from '../visual-material/NotesBackround.mp4';
-import lifeVideo from "../visual-material/LifeBackround.mp4";
 import Logo from "../visual-material/logo.png";
 
 

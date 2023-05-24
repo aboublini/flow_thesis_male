@@ -36,16 +36,12 @@
 }
 
 .item {
-    /*background: rgba(0, 0, 0, .5);*/
-    /*margin-bottom: 10px;*/
-    /*padding: 10px 20px;*/
     width: 60%;
     border: 1px solid white;
     padding: 0.5rem 1.5rem;
     background-color: black;
     color: white;
     transition: .3s;
-    /*text-transform: uppercase;*/
     margin: 1.5rem auto 1.3rem;
 }
 

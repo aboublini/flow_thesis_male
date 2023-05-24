@@ -4,9 +4,7 @@
     z-index: -1;
     object-fit: cover;
     position: fixed;
-    /*filter: brightness(100%);*/
     filter: grayscale(40%);
-    /*object-position: 100% 50%;*/
     width: 60%;
     float: right;
     display: flex;
@@ -20,14 +18,12 @@
     width: 100%;
     position: relative;
     object-fit: contain;
-
     display: flex;
 }
 
 .help-container .help-content {
     background: rgba(0, 0, 0, .2);
     text-align: center;
-    /*position: absolute;*/
     width: 100%;
     height: 100%;
 }

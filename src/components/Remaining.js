@@ -1,5 +1,4 @@
 import React from 'react';
-import {RxDoubleArrowRight} from "react-icons/rx";
 
 const Remaining = ({ remain }) => {
     return (

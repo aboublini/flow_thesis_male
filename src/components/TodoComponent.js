@@ -5,7 +5,6 @@ import TodoItem from "./TodoItem";
 import CalendarComponent from "./CalendarComponent";
 import {nanoid} from "nanoid";
 import Swal from "sweetalert2";
-import Logo from "../visual-material/logo.png";
 
 function TodoComponent() {
 

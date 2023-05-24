@@ -1,5 +1,4 @@
 import './LoginComponentStyle.css';
-import './VideoStyle.css'
 import colourVideo from "../visual-material/LoginBackround.mp4";
 import Logo from '../visual-material/logo.png';
 import { useNavigate } from "react-router-dom";

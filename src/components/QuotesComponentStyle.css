@@ -4,10 +4,8 @@
     width: 100%;
     padding: 6rem 0;
     background: rgba(0, 0, 0, .5);
-    /*background-color: grey;*/
     display: flex;
     justify-content: space-between;
-    /*text-align: center;*/
     transition: .3s;
 }
 
@@ -20,7 +18,6 @@
     width: 70%;
     transition: .3s;
     margin-left: 5rem;
-    /*margin-right: auto;*/
     font-style: italic;
     font-size: 3.3rem;
 }
@@ -53,7 +50,6 @@
 
 .q-left {
     transition: .3s;
-    /*margin-right: 6rem;*/
     width: 35%;
     float: right;
     display: flex;
