@@ -44,7 +44,7 @@ function FAQ() {
                     </ol>
         },
         {
-            question: "How to add an expense to flow's budget manager?",
+            question: "How to add an expense to Flow's budget manager?",
             answer: <ol>
                         <li>1.	From the navigation menu, go to "<Link to="/life" className="lnk">BUDGET MANAGER</Link>".</li>
                         <li>2.	Go to the white frame with the title "ADD EXPENSE".</li>
@@ -54,7 +54,7 @@ function FAQ() {
                     </ol>
         },
         {
-            question: "How to remove-delete an expense from flow's budget manager?",
+            question: "How to remove-delete an expense from Flow's budget manager?",
             answer: <ol>
                         <li>1.	From the navigation menu, go to "<Link to="/life" className="lnk">BUDGET MANAGER</Link>".</li>
                         <li>2.	Go to the white frame with the title "EXPENSES".</li>
