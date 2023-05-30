@@ -39,18 +39,28 @@ const BudgetManager = () => {
     const [expenses, setExpenses] = useState([
         {
             id: nanoid(),
-            name: "Vacation",
-            cost: "300"
+            name: "Rent",
+            cost: "850"
         },
         {
             id: nanoid(),
             name: "Super Market",
-            cost: "50"
+            cost: "100"
         },
         {
             id: nanoid(),
-            name: "Fay's present",
-            cost: "50"
+            name: "Car Service",
+            cost: "120"
+        },
+        {
+            id: nanoid(),
+            name: "Taxes",
+            cost: "100"
+        },
+        {
+            id: nanoid(),
+            name: "New Laptop",
+            cost: "1200"
         },
     ]);
 

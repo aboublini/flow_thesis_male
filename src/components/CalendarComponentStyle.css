@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 * {
-    font-family: 'Fjalla One', 'Nirmala UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    font-family: 'Fjalla One', 'Arial',
     sans-serif !important;
 }
 

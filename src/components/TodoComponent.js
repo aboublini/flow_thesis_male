@@ -12,13 +12,25 @@ function TodoComponent() {
     const [todos, setTodos] = useState([
         {
             id: nanoid(),
-            text: "Buy groceries",
-            completed: false,
+            text: "Call Jim",
+            completed: true,
             important: false
         },
         {
             id: nanoid(),
             text: "Go to gym",
+            completed: true,
+            important: false
+        },
+        {
+            id: nanoid(),
+            text: "Pick up car from service",
+            completed: false,
+            important: false
+        },
+        {
+            id: nanoid(),
+            text: "Take out the trash ",
             completed: false,
             important: false
         },
