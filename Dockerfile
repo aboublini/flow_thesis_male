@@ -1,6 +1,6 @@
 # docker login flowcontainer.azurecr.io
-# docker build . -t flowcontainer.azurecr.io/flow-male:v1.0.1
-# docker push flowcontainer.azurecr.io/flow-male:v1.0.1
+# docker build . -t flowcontainer.azurecr.io/flow-male:v1.1.1
+# docker push flowcontainer.azurecr.io/flow-male:v1.1.1
 FROM node:18
 
 
